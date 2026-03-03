@@ -1,0 +1,36 @@
+@media (min-width:760px) and (max-width:960px) {
+    header{
+        background-size: 200%;
+    }
+    
+    .main_header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_me{
+        flex-wrap: wrap;
+    }
+    
+    .hard_skills_list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .soft_skills_block{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my_projects_list{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+
+    .my_projects_list div{
+        width: 300px;
+    }
+}

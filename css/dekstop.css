@@ -1,0 +1,12 @@
+header{
+    width:479px;
+    height:180px;
+    background: blue;
+}
+.container{
+    width: 585px;
+    height: 33px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: blue;
+}
